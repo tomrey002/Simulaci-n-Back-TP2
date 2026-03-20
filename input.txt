@@ -1,0 +1,27 @@
+{
+    "cantidadNumeros": 10,
+    "distribucion": "Uniforme",
+    "parametros": {"a":12, "b":16}
+    
+}
+
+{
+    "cantidadNumeros": 1000,
+    "distribucion": "ExponecialNegativa",
+    "parametros": {"Lambda":5}
+    
+}
+
+{
+    "cantidadNumeros": 1000,
+    "distribucion": "Normal",
+    "parametros": {"Media":5, Desviacion:10},
+    "cantidadIntervalos":15
+}
+
+ [
+ { "binStart": 0, "binEnd": 10, "freq": 12 },
+ { "binStart": 10, "binEnd": 20, "freq": 50 },
+ { "binStart": 20, "binEnd": 30, "freq": 18 },
+ { "binStart": 30, "binEnd": 40, "freq": 7 }
+]
